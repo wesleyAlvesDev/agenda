@@ -1,4 +1,4 @@
-package com.github.wesleyalvesdev.agenda.model.entity;
+package com.github.wesleyalvesdev.agenda.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

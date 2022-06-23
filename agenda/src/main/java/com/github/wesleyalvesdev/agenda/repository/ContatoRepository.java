@@ -1,6 +1,6 @@
-package com.github.wesleyalvesdev.agenda.model.repository;
+package com.github.wesleyalvesdev.agenda.repository;
 
-import com.github.wesleyalvesdev.agenda.model.entity.Contato;
+import com.github.wesleyalvesdev.agenda.model.Contato;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

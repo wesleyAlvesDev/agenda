@@ -1,4 +1,4 @@
-package com.github.wesleyalvesdev.agenda.model.service;
+package com.github.wesleyalvesdev.agenda.service;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,8 +6,8 @@ import java.util.Optional;
 
 import javax.servlet.http.Part;
 
-import com.github.wesleyalvesdev.agenda.model.entity.Contato;
-import com.github.wesleyalvesdev.agenda.model.repository.ContatoRepository;
+import com.github.wesleyalvesdev.agenda.model.Contato;
+import com.github.wesleyalvesdev.agenda.repository.ContatoRepository;
 
 import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
