@@ -1,0 +1,20 @@
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+table {
+    width: 100%;
+}
+
+.image-upload > input {
+    display: none;
+}
+
+.image-upload img {
+    width: 80px;
+    cursor: pointer;
+}

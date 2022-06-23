@@ -1,0 +1,28 @@
+<mat-card style="text-align: center;">
+    <mat-card-title>
+        <mat-icon>face</mat-icon>
+    </mat-card-title>
+    
+    <br>
+
+    <mat-card-header>
+        <div *ngIf="contato.foto">
+            <img mat-card-image src="data:image/jpeg;base64,{{contato.foto}}" alt="Foto Perfil" style="width:70%">
+        </div>
+        <div *ngIf="!contato.foto">
+            <img mat-card-image src="../../assets/img/contacts_logo.png" alt="Foto Perfil" style="width:70%">
+        </div>
+    </mat-card-header>
+
+    <mat-card-content>
+        <p>
+            <strong>{{contato.nome}}</strong>
+            <br>
+            <strong>{{contato.email}}</strong>
+        </p>
+    </mat-card-content>
+
+    <mat-card-actions>
+        <button mat-raised-button color="primary" (click)="fechar()">Fechar</button>
+    </mat-card-actions>
+</mat-card>
