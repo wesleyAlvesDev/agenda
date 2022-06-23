@@ -6,7 +6,7 @@ Agenda de contatos de email,  que faz uso das seguintes tecnologias:
   - Spring Framework
   - PostgreSQL
   - Angular 9
-  - Swegger-ui
+  - Swagger-ui
 
 # Pré requisitos 
 
